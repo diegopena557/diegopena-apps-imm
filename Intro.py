@@ -92,11 +92,11 @@ with col4:
  url = "https://reconocimientodegoated.streamlit.app/"
  st.write(f"Caras: [Enlace]({url})")
 
- st.subheader("Análisis de Imagen")
- image = Image.open('análisisespañol.jpg')
+ st.subheader("Análisis emocional con gráficas y traductor")
+ image = Image.open('perrete.jpg')
  st.image(image, width=200)
- st.write("En el siguiente enlace veremos frecuencia de las palabras y analíticas") 
- url = "https://tdfingles.streamlit.app/"
+ st.write("En el siguiente enlace veremos un análisis del tono de un texto con pequeños tips acerca de como decirlo en público para comunicarlo de otra manera.") 
+ url = "https://textanalysisdiego.streamlit.app/"
  st.write(f"Análisis: [Enlace]({url})")
  
  st.subheader("Relavancia documentos frente a pregunta en inglés")
