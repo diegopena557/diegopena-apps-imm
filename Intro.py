@@ -114,12 +114,15 @@ with col5:
  url = "https://yolov5diego.streamlit.app/"
  st.write(f"YOLO: [Enlace]({url})")
 
- st.subheader("Análisis emocional con gráficas y traductor")
- image = Image.open('perrete.jpg')
+ st.subheader("Secuencia MQTT")
+ image = Image.open('anodaone.jpg')
  st.image(image, width=200)
- st.write("En el siguiente enlace veremos un análisis del tono de un texto con pequeños tips acerca de como decirlo en público para comunicarlo de otra manera.") 
- url = "https://textanalysisdiego.streamlit.app/"
- st.write(f"Análisis: [Enlace]({url})")
+ st.write("En el siguiente enlace veremos como se activa una secuencia de movimientos de un servo en wokwi basado en los datos recibidos desde streamlit") 
+ url = "https://sendcmqttdiegos.streamlit.app/"
+ url2 = "https://wokwi.com/projects/445285230643963905"
+ st.write(f"MQTT: [Enlace]({url})")
+ st.write(f"wokwi: [Enlace]({url2})")
+  
  
 
 
