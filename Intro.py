@@ -77,11 +77,11 @@ with col3:
  url = "https://tdfingles.streamlit.app/"
  st.write(f"Análisis: [Enlace]({url})")
  
- st.subheader("Sistema Ciberfísico")
- image = Image.open('OIG6.jpg')
+ st.subheader("Relavancia documentos frente a pregunta en inglés")
+ image = Image.open('penguin.jpg')
  st.image(image, width=200)
- st.write("En la siguiente enlace veremos la capacidad de interacción con el mundo físico.") 
- url = "https://vision2-gpt4o.streamlit.app/"
- st.write(f"Vision: [Enlace]({url})")
+ st.write("En el siguiente enlace veremos la relevancia estadística de palabras en documentos con preguntas, generando frases divertidas para fomentar la recordación de palabras clave") 
+ url = "https://tfidfoooooooo.streamlit.app/"
+ st.write(f"TF-IDF [Enlace]({url})")
 
 
