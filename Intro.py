@@ -32,12 +32,12 @@ with col1:
  url = "https://traductortestdiego.streamlit.app/"
  st.write(f"Traductor [Enlace]({url})")
 
- st.subheader("Entrenando Modelos")
- image = Image.open('OIG5.jpg')
+ st.subheader("Reconocimiento de texto en imágenes")
+ image = Image.open('estudiado.png')
  st.image(image, width=200)
- st.write("En la siguiente enlace veremos como puedes usar tu modelo entrenado.") 
- url = "https://xn3pg24ztuv6fdiqon8qn3.streamlit.app/"
- st.write(f"YOLO: [Enlace]({url})")
+ st.write("En el siguiente enlace veremos commo puedes transcribir y traducir contenido de imágenes incluso usando la cámara.") 
+ url = "https://ocraudiotextdiego.streamlit.app/#reconocimiento-optico-de-caracteres"
+ st.write(f"Imágenes ocr [Enlace]({url})")
 
 with col2: 
  st.subheader("Conversión de voz a texto")
