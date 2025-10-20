@@ -25,12 +25,12 @@ with col1:
  url = "https://ttstestdiego.streamlit.app/"
  st.write(f"Texto a voz: [Enlace]({url})")
 
- st.subheader("Reconocimiento de Objetos")
- image = Image.open('txt_to_audio.png')
+ st.subheader("Traductor de voz a texto Inglés y español")
+ image = Image.open('huhbao.jpg')
  st.image(image, width=200)
- st.write("En la siguiente enlace veremos como se detectan objetos en Imágenes.") 
- url = "https://xn3pg24ztuv6fdiqon8qn3.streamlit.app/"
- st.write(f"YOLO: [Enlace]({url})")
+ st.write("En el siguiente enlace veremos traducciones a varios idiomas con input de voz") 
+ url = "https://traductortestdiego.streamlit.app/"
+ st.write(f"Traductor [Enlace]({url})")
 
  st.subheader("Entrenando Modelos")
  image = Image.open('OIG5.jpg')
