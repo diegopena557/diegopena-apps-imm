@@ -63,12 +63,12 @@ with col2:
 
 
 with col3: 
- st.subheader("Generación en Contexto")
- image = Image.open('Chat_pdf.png')
+ st.subheader("Dibujos que crean historias de programación")
+ image = Image.open('drawingcat.jpg')
  st.image(image, width=190)
- st.write("En la siguiente veremos una aplicación que usa RAG a partir de un documento (PDF).") 
- url = "https://chatpdf-cc.streamlit.app/"
- st.write(f"RAG: [Enlace]({url})")
+ st.write("En la siguiente aplicación veremos funciones que crean historias creativas que enseñan conceptos de programación utilizando IA al dibujar en el tablero, a su vez permite modificar aspectos del tablero") 
+ url = "https://histinf-uwq.streamlit.app/"
+ st.write(f"Historias: [Enlace]({url})")
 
  st.subheader("Análisis de Imagen")
  image = Image.open('OIG4.jpg')
