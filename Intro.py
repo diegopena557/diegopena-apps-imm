@@ -54,12 +54,12 @@ with col2:
  url = "https://ctrlvoicediego.streamlit.app/"
  st.write(f"Voz en Wokwi: [Enlace]({url})")
 
- st.subheader("Trasnscriptor Audio y Video")
- image = Image.open('OIG3.jpg')
+ st.subheader("Detección de números escritos a mano")
+ image = Image.open('monopiensa.jpg')
  st.image(image, width=200)
- st.write("En la siguiente enlace veremos como realizamos transcripciones de audio/video.") 
- url = "https://transcript-whisper.streamlit.app/"
- st.write(f"Transcriptor: [Enlace]({url})")
+ st.write("En el siguiente enlace veremos como detectar números escribiendo a mano.") 
+ url = "https://handwrittingtest.streamlit.app/"
+ st.write(f"Tablerito: [Enlace]({url})")
 
 
 with col3: 
