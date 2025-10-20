@@ -14,7 +14,7 @@ with st.sidebar:
 url_ia="https://diegopenapp.streamlit.app/"
 st.subheader("En el siguiente enlace puedes encontrar la primera pagina e intro de streamlit")
 st.write(f"Enlace para intro [Enlace]({url_ia})")
-col1, col2, col3, col4 = st.columns(4)
+col1, col2, col3, col4 col5= st.columns(5)
 
 with col1:
  
@@ -105,5 +105,28 @@ with col4:
  st.write("En el siguiente enlace veremos diversos puntos de vista sobre una misma imágen, sobre la cuál se puede preguntar y análizar más a fondo.") 
  url = "https://visionapp.streamlit.app/"
  st.write(f"Imágenes [Enlace]({url})")
+  
+with col5: 
+ st.subheader("Reconocimiento de caras")
+ image = Image.open('dogger.jpg')
+ st.image(image, width=190)
+ st.write("En la siguiente aplicación veremos una aplicación que permite el reconocimiento de rostros, entrenada en clase para identificarme a mi y a mis amigos, probada en el salón.") 
+ url = "https://reconocimientodegoated.streamlit.app/"
+ st.write(f"Caras: [Enlace]({url})")
+
+ st.subheader("Análisis emocional con gráficas y traductor")
+ image = Image.open('perrete.jpg')
+ st.image(image, width=200)
+ st.write("En el siguiente enlace veremos un análisis del tono de un texto con pequeños tips acerca de como decirlo en público para comunicarlo de otra manera.") 
+ url = "https://textanalysisdiego.streamlit.app/"
+ st.write(f"Análisis: [Enlace]({url})")
+ 
+ st.subheader("Análisis profundo de imágenes con roles")
+ image = Image.open('calamardo.jpg')
+ st.image(image, width=200)
+ st.write("En el siguiente enlace veremos diversos puntos de vista sobre una misma imágen, sobre la cuál se puede preguntar y análizar más a fondo.") 
+ url = "https://visionapp.streamlit.app/"
+ st.write(f"Imágenes [Enlace]({url})")
+
 
 
