@@ -14,7 +14,7 @@ with st.sidebar:
 url_ia="https://diegopenapp.streamlit.app/"
 st.subheader("En el siguiente enlace puedes encontrar la primera pagina e intro de streamlit")
 st.write(f"Enlace para intro [Enlace]({url_ia})")
-col1, col2, col3 = st.columns(3)
+col1, col2, col3, col4 = st.columns(4)
 
 with col1:
  
