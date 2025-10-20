@@ -1,28 +1,28 @@
 import streamlit as st
 from PIL import Image
-st.title("Aplicaciones de Inteligencia Artificial.")
+st.title("Portafolio de aplicaciones")
 
 with st.sidebar:
-  st.subheader("Aplicaciones con Inteligencia Artificial.")
+  st.subheader("Portafolio de aplicaciones por Diego Peña")
   parrafo = (
-    "La inteligencia artificial permite mejorar la toma de decisiones con el uso de datos, "
-    "automatizar tareas rutinarias y proporcionar análisis avanzados en tiempo real, lo que "
-    "resulta en una mayor eficiencia y precisión en diversos campos."
+    "Les presento mi portafolio de aplicaciones realizadas para interfaces multimodales."
+    "Es muy interesante ver todo lo que se puede hacer y pensar aplicaciones diversas para todo."
+    "Muchas gracias."
   )
   st.write(parrafo)
 
-url_ia="https://sites.google.com/view/aplicacionesdeia/inicio"
-st.subheader("En el siguiente enlace puedes encontrar páginas y ejercicios prácticos")
-st.write(f"Enlace para páginas y ejercicios: [Enlace]({url_ia})")
+url_ia="https://diegopenapp.streamlit.app/"
+st.subheader("En el siguiente enlace puedes encontrar la primera pagina e intro de streamlit")
+st.write(f"Enlace para intro [Enlace]({url_ia})")
 col1, col2, col3 = st.columns(3)
 
 with col1:
  
  st.subheader("Conversión de texto a voz")
- image = Image.open('txt_to_audio2.png')
+ image = Image.open('unclebao.jpg')
  st.image(image, width=190)
- st.write("En la siguiente enlace usaremos una de las aplicaciones de Inteligencia Artificial") 
- url = "https://imultimod.streamlit.app/"
+ st.write("En la siguiente enlace veremos como se convierte el texto a voz") 
+ url = "https://ttstestdiego.streamlit.app/"
  st.write(f"Texto a voz: [Enlace]({url})")
 
  st.subheader("Reconocimiento de Objetos")
