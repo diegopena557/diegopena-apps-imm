@@ -99,11 +99,11 @@ with col4:
  url = "https://textanalysisdiego.streamlit.app/"
  st.write(f"Análisis: [Enlace]({url})")
  
- st.subheader("Relavancia documentos frente a pregunta en inglés")
- image = Image.open('penguin.jpg')
+ st.subheader("Análisis profundo de imágenes con roles")
+ image = Image.open('calamardo.jpg')
  st.image(image, width=200)
- st.write("En el siguiente enlace veremos la relevancia estadística de palabras en documentos con preguntas, generando frases divertidas para fomentar la recordación de palabras clave") 
- url = "https://tfidfoooooooo.streamlit.app/"
- st.write(f"TF-IDF [Enlace]({url})")
+ st.write("En el siguiente enlace veremos diversos puntos de vista sobre una misma imágen, sobre la cuál se puede preguntar y análizar más a fondo.") 
+ url = "https://visionapp.streamlit.app/"
+ st.write(f"Imágenes [Enlace]({url})")
 
 
