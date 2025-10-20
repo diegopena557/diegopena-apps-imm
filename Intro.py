@@ -71,11 +71,11 @@ with col3:
  st.write(f"Historias: [Enlace]({url})")
 
  st.subheader("Análisis de Imagen")
- image = Image.open('OIG4.jpg')
+ image = Image.open('análisisespañol.jpg')
  st.image(image, width=200)
- st.write("En la siguiente enlace veremos la capacidad de análisis en Imágenes.") 
- url = "https://vision2-gpt4o.streamlit.app/"
- st.write(f"Vision: [Enlace]({url})")
+ st.write("En el siguiente enlace veremos frecuencia de las palabras y analíticas") 
+ url = "https://tdfingles.streamlit.app/"
+ st.write(f"Análisis: [Enlace]({url})")
  
  st.subheader("Sistema Ciberfísico")
  image = Image.open('OIG6.jpg')
