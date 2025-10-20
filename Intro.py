@@ -35,7 +35,7 @@ with col1:
  st.subheader("Reconocimiento de texto en imágenes")
  image = Image.open('estudiado.png')
  st.image(image, width=200)
- st.write("En el siguiente enlace veremos commo puedes transcribir y traducir contenido de imágenes incluso usando la cámara.") 
+ st.write("En el siguiente enlace veremos como puedes transcribir y traducir contenido de imágenes incluso usando la cámara.") 
  url = "https://ocraudiotextdiego.streamlit.app/#reconocimiento-optico-de-caracteres"
  st.write(f"Imágenes ocr [Enlace]({url})")
 
