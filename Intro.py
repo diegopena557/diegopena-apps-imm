@@ -107,12 +107,12 @@ with col4:
  st.write(f"Imágenes [Enlace]({url})")
   
 with col5: 
- st.subheader("Reconocimiento de caras")
- image = Image.open('dogger.jpg')
+ st.subheader("Detección de elementos YOLO")
+ image = Image.open('yolo.jpg')
  st.image(image, width=190)
- st.write("En la siguiente aplicación veremos una aplicación que permite el reconocimiento de rostros, entrenada en clase para identificarme a mi y a mis amigos, probada en el salón.") 
- url = "https://reconocimientodegoated.streamlit.app/"
- st.write(f"Caras: [Enlace]({url})")
+ st.write("En la siguiente aplicación veremos el uso de YOLO para detectar objetos en una foto tomada, con una breve descripción de casos de uso y una tabla de frecuencias de objetos.") 
+ url = "https://yolov5diego.streamlit.app/"
+ st.write(f"YOLO: [Enlace]({url})")
 
  st.subheader("Análisis emocional con gráficas y traductor")
  image = Image.open('perrete.jpg')
@@ -121,12 +121,5 @@ with col5:
  url = "https://textanalysisdiego.streamlit.app/"
  st.write(f"Análisis: [Enlace]({url})")
  
- st.subheader("Análisis profundo de imágenes con roles")
- image = Image.open('calamardo.jpg')
- st.image(image, width=200)
- st.write("En el siguiente enlace veremos diversos puntos de vista sobre una misma imágen, sobre la cuál se puede preguntar y análizar más a fondo.") 
- url = "https://visionapp.streamlit.app/"
- st.write(f"Imágenes [Enlace]({url})")
-
 
 
