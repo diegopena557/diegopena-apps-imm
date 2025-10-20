@@ -40,12 +40,12 @@ with col1:
  st.write(f"Imágenes ocr [Enlace]({url})")
 
 with col2: 
- st.subheader("Conversión de voz a texto")
- image = Image.open('OIG8.jpg')
+ st.subheader("Análisis de PDF")
+ image = Image.open('lilbro.jpg')
  st.image(image, width=200)
- st.write("En la siguiente veremos una aplicación que usa la conversión de voz a texto.") 
- url = "https://traductor-ab0sp9f6fi.streamlit.app/"
- st.write(f"Voz a texto: [Enlace]({url})")
+ st.write("En el siguiente enlace veremos análisis con IA de documentos de PDF con palabras clave y explicaciones tipo profesor.") 
+ url = "https://chatpdfdiego.streamlit.app/"
+ st.write(f"PDF: [Enlace]({url})")
 
  st.subheader("Análisis de Datos")
  image = Image.open('data_analisis.png')
