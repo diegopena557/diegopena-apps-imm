@@ -85,12 +85,12 @@ with col3:
  st.write(f"TF-IDF [Enlace]({url})")
 
 with col4: 
- st.subheader("Dibujos que crean historias de programación")
- image = Image.open('drawingcat.jpg')
+ st.subheader("Reconocimiento de caras")
+ image = Image.open('dogger.jpg')
  st.image(image, width=190)
- st.write("En la siguiente aplicación veremos funciones que crean historias creativas que enseñan conceptos de programación utilizando IA al dibujar en el tablero, a su vez permite modificar aspectos del tablero") 
- url = "https://histinf-uwq.streamlit.app/"
- st.write(f"Historias: [Enlace]({url})")
+ st.write("En la siguiente aplicación veremos una aplicación que permite el reconocimiento de rostros, entrenada en clase para identificarme a mi y a mis amigos, probada en el salón.") 
+ url = "https://reconocimientodegoated.streamlit.app/"
+ st.write(f"Caras: [Enlace]({url})")
 
  st.subheader("Análisis de Imagen")
  image = Image.open('análisisespañol.jpg')
