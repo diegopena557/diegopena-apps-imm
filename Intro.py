@@ -47,12 +47,12 @@ with col2:
  url = "https://chatpdfdiego.streamlit.app/"
  st.write(f"PDF: [Enlace]({url})")
 
- st.subheader("Análisis de Datos")
- image = Image.open('data_analisis.png')
+ st.subheader("Control por voz Wokwi")
+ image = Image.open('controldog.jpg')
  st.image(image, width=190)
- st.write("En la siguiente enlace veremos como se pueden analizar datos usando agentes.") 
- url = "https://asistpy-csv.streamlit.app/"
- st.write(f"Datos: [Enlace]({url})")
+ st.write("En el siguiente enlace veremos como controlar enviar mensajes que llegan a la interfaz de wokwi") 
+ url = "https://ctrlvoicediego.streamlit.app/"
+ st.write(f"Voz en Wokwi: [Enlace]({url})")
 
  st.subheader("Trasnscriptor Audio y Video")
  image = Image.open('OIG3.jpg')
