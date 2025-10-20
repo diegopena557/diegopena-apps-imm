@@ -84,4 +84,26 @@ with col3:
  url = "https://tfidfoooooooo.streamlit.app/"
  st.write(f"TF-IDF [Enlace]({url})")
 
+with col4: 
+ st.subheader("Dibujos que crean historias de programación")
+ image = Image.open('drawingcat.jpg')
+ st.image(image, width=190)
+ st.write("En la siguiente aplicación veremos funciones que crean historias creativas que enseñan conceptos de programación utilizando IA al dibujar en el tablero, a su vez permite modificar aspectos del tablero") 
+ url = "https://histinf-uwq.streamlit.app/"
+ st.write(f"Historias: [Enlace]({url})")
+
+ st.subheader("Análisis de Imagen")
+ image = Image.open('análisisespañol.jpg')
+ st.image(image, width=200)
+ st.write("En el siguiente enlace veremos frecuencia de las palabras y analíticas") 
+ url = "https://tdfingles.streamlit.app/"
+ st.write(f"Análisis: [Enlace]({url})")
+ 
+ st.subheader("Relavancia documentos frente a pregunta en inglés")
+ image = Image.open('penguin.jpg')
+ st.image(image, width=200)
+ st.write("En el siguiente enlace veremos la relevancia estadística de palabras en documentos con preguntas, generando frases divertidas para fomentar la recordación de palabras clave") 
+ url = "https://tfidfoooooooo.streamlit.app/"
+ st.write(f"TF-IDF [Enlace]({url})")
+
 
